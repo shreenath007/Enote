@@ -1,7 +1,7 @@
 USE [Customers_Detail]
 GO
 
-/****** Object:  Table [dbo].[person]    Script Date: 07/07/2020 03:00:28 ******/
+/****** Object:  Table [dbo].[person]    Script Date: 08/07/2020 01:03:28 ******/
 SET ANSI_NULLS ON
 GO
 
@@ -24,5 +24,8 @@ CREATE TABLE [dbo].[person](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
+
+
+
 
 
